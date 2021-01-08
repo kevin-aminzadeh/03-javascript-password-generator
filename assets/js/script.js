@@ -56,7 +56,7 @@ function generatePassword() {
     console.error(
       "Error: Invalid password length. Password must be between 8 to 128 characters."
     );
-    return;
+    return "Error: Invalid password length. Password must be between 8 to 128 characters.";
   }
 
   // Begin password generation only if at least one character type has been selected
