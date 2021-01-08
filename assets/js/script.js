@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 // Generate Password
 function generatePassword() {
   // Local variables
-  const charset = {
+  const charSet = {
     0: {
       name: "lowercase",
       value: "abcdefghijklmnopqrstuvwxyz",
@@ -37,14 +37,14 @@ function generatePassword() {
 
   // IF the chosen password length is inside the allowed range then proceed to capturing user's desired character types for password
   if (passwordCriteria.passLength >= 8 && passwordCriteria.passLength <= 128) {
-    for (const charType in charset) {
+    for (const charType in charSet) {
       if (
         confirm(
-          `Should the password include ${charset[charType].name} characters?`
+          `Should the password include ${charSet[charType].name} characters?`
         )
       ) {
         passwordCriteria.allowedChars = passwordCriteria.allowedChars.concat(
-          charset[charType].value
+          charSet[charType].value
         );
       }
     }
