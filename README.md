@@ -1,4 +1,4 @@
-# 03 Javascript Password Generator
+# Javascript Password Generator
 
 <p align="center">
   <img src="./assets/img/03-javascript-homework-demo.png" alt="Javascript Pseudo-Random Password Generator">
