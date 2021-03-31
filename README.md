@@ -4,7 +4,7 @@
   <img src="./assets/img/03-javascript-homework-demo.png" alt="Javascript Pseudo-Random Password Generator">
 </p>
 
-> <h2 align="center"><a  href="https://kevin-aminzadeh.github.io/03-javascript-password-generator/">Live Demo</a></h2>
+> <h2 align="center"><a  href="https://kevin-aminzadeh.github.io/javascript-password-generator/">Live Demo</a></h2>
 
 ## Table of Contents
 
